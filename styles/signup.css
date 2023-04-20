@@ -1,0 +1,30 @@
+ #signupDiv {
+     width: 30%;
+ }
+
+ form {
+     padding: 40px;
+ }
+
+ form>input {
+     width: 100%;
+     margin-bottom: 20px;
+     font-size: 15px;
+     border: 1px solid black;
+     border-radius: 0px;
+     padding: 10px;
+ }
+
+ form>label {
+     font-size: 15px;
+ }
+
+ #Signup {
+     background-color: rgb(23, 131, 158);
+     color: white;
+     width: 107%;
+ }
+
+ #Signup+p~p {
+     font-size: 12px;
+ }

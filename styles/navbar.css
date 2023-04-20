@@ -1,0 +1,55 @@
+* body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Section */
+#navbar {
+    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    position: fixed;
+    display: grid;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 176);
+
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#bottom>div {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    margin: auto;
+}
+
+#bottom>div:nth-child(1) {
+    margin-left: 60px;
+
+}
+
+#bottom>div:nth-child(3) {
+    margin-right: 40px;
+}
+
+#Home {
+    font-size: 25px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}

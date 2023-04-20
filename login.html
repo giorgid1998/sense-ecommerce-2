@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/cart.css" />
+    <link rel="stylesheet" href="./Styles/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="navbar">
+        <div id="bottom">
+
+            <div>
+                <a href="index.html">
+                    <i class="fa-solid fa-house fa-2xl"></i>
+                </a>
+            </div>
+            <div>
+                <a href="mens.html">
+                    <p>Products</p>
+                </a>
+            </div>
+            <div>
+                <a href="login.html">
+                    <p>Login</p>
+                </a>
+
+                <a href="wishlist.html">
+                    <p>Wishlist (<span id="wishlistCount">0</span>)</p>
+                </a>
+
+                <a href="cart.html">
+                    <p>Shopping bag (<span id="bagCount">0</span>)</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bag Section -->
+    <div id="Container">
+
+        <div id="loginDiv">
+
+            <form>
+
+                <p>Login</p> <br>
+
+                <label for="">Email Address</label> <br>
+                <input id="LoginEmail" type="email" required> <br>
+
+                <label for="">Password</label> <br>
+                <input id="LoginPass" type="password" required> <br>
+
+                <input id="Login" type="submit" value="Login">
+
+                <p>Don't have an account? <a href="signup.html"> Sign Up</a></p>
+
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+        <div>
+            <p>COUNTRY/REGION:GEORGIA</p>
+            <p>NEWSLETTER SIGNUP</p>
+            <p>CUSTOMER CARE</p>
+            <p>LOCATION</p>
+            <p>EDITORIAL ARCHIVE</p>
+            <p>CAREERS</p>
+            <p>AFFILIATES</p>
+            <p>SITEMAP</p>
+
+        </div>
+
+        <div>
+            <p>© 2023</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Cookies</p>
+            <p>Accessibility</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="./scripts/login.js"></script>
